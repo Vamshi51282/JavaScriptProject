@@ -1,0 +1,14 @@
+.pdiv1{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+/* .pdiv2{
+    display: flex;
+    gap: 2px;
+} */
+.card-title:hover{
+ text-decoration: underline;
+}

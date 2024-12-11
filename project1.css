@@ -1,0 +1,17 @@
+.div1{
+    display: flex;
+    gap: 50px;
+}
+.div2{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.div3{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card-title:hover{
+ text-decoration: underline;
+}

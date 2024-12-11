@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+    <script src="./project.js"></script>
+    
+    <nav class="navbar navbar-expand-lg" style="position: sticky;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#" style="font-family:cursive;">Agri-Products</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#typesofSeeds">AboutUs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#section2">ContactUs</a>
+      </li>
+    </ul>
+<form class="form-inline my-2 my-lg-0" role="search" onsubmit="search(); return false;">
+  <input class="form-control mr-sm-2" id="searchinput" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+  </div>
+</nav>
+    <div class="img">
+    <img src="./WhatsApp Image 2024-12-11 at 2.50.22 PM.jpeg" width="60%" height="500px"alt="">
+    </div>
+ <div class="maincarts">
+        <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://media.istockphoto.com/id/476685388/photo/hand-holding-golden-paddy-seeds.jpg?s=612x612&w=0&k=20&c=bqc0XvkPtGoKBqZUkJdaiVMMcLxzq2PjRVo67aShWz4=" height="250px"alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Paddy Seeds</h5>
+    <p class="card-text">Paddy/Rice is one of the chief grains of India and has the largest area under cultivation, as it is one of the principal food crops.</p>
+    <a href="#" class="btn btn-primary" onclick="seeds()">view more...</a>
+  </div>
+</div>
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.agriplexindia.com/cdn/shop/collections/Insecticides.png?crop=center&height=500&v=1714216643&width=600" height="250px"alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Pesticides</h5>
+    <p class="card-text">Pesticides are chemical compounds that are used to kill pests, including insects, rodents, fungi and (weeds).</p>
+    <a href="#" class="btn btn-primary" onclick="Pesticides()">view more...</a>
+  </div>
+</div>
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjae6SufWszaDn3o6bPi-BXRTqLWk9Hc-IOQ&s" width="" height="250px"alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Fertilizers</h5>
+    <p class="card-text">A fertilizer is defined as a chemical substance that contains nutrients such as nitrogen, potassium, phosphorus to make soil fertile.</p>
+    <a href="#" class="btn btn-primary" onclick="Fertilizers()">View more...</a>
+  </div>
+</div>
+
+ </div>
+    <div class="A">
+        <li onclick="Seed Bags"></li>
+        <li onclick=""></li>
+
+    </div>
+    <div id="section1">
+        <div class="types of Seeds" id="typesofSeeds">
+            <h2>SEEDS Available</h2  >
+            <ul>
+                <li onclick="Telangana Sona()">TELANGANA_SONA</li>
+                <li onclick="RNR-15048()">RNR-15048 </li>
+                <li onclick="MTU-1280()">MTU-1280 </li>
+                <li onclick="MTU-1212()">MTU-1212</li>
+                <li onclick="MTU-1318()">MTU-1318</li>
+                <li onclick="Sonali-07()">SONALI-07</li>
+                <li onclick="Bombay-90()">BOMBAY-90</li>
+                <li onclick="Amani()">AMANI</li>
+                <li onclick="GT-2525()">GT-2525</li>
+                <li onclick="PR-126()">PR-126</li>
+                <li onclick="Swarna Gold()">SWARNA_GOLD</li>
+                
+            </ul>
+        </div>
+        <div class="Pesticidescollection">
+            <h2>PESTICIDES Available</h2>
+            <ul>
+                <li onclick="Focus()">Focus</li>
+                <li onclick="Sumo()">Sumo</li>
+                <li onclick="Vazram()">Vazram</li>
+                <li onclick="Control TRM()">Control TRm</li>
+                <li onclick="Award()">Award</li>
+                <li onclick="Lamdex-Gold()">Lamdex-Gold</li>
+                <li onclick="Admit()">Admit</li>
+                <li onclick="PRO-Star()">PRO-STAR</li>
+            </ul>
+        </div>
+        <div class="Fertilizers">
+            <h2>Fertilizers Available</h2>
+            <ul>
+                <li onclick="Gromor 28-28-0()">Gromor 28-28-0</li>
+                <li onclick="DOMParser()">DAP</li>
+                <li onclick="NPK 19-19-19()">NPK 19-19-19</li>
+                <li onclick="IPL M.O.P()">IPL M.O.P</li>
+                <li onclick="Yara Vera()">Yara Vera</li>
+                <li onclick="UREA 46% N()">UREA 46% N</li>
+                <li onclick="Lohadrip()">Lohadrip</li>
+                <li onclick="RH-1706()">RH-1706</li>
+            </ul>
+        </div>
+    </div>
+    <div id="section2">
+        <footer>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            <i class="fas fa-phone" style="color: #f39c12;"></i>
+            <span style="margin-left: 10px;">9515174064,7569133430</span>
+            <i class="fas fa-envelope" style="color: #3498db;"></i>
+            <span style="margin-left: 10px;">Agri-Products@example.com</span>
+            <i class="fas fa-map-marker-alt" style="color: #e74c3c;"></i>
+      <span style="margin-left: 10px;">5-64 Rythu Bazar, Warangal, Telangana</span>
+        </footer>
+    </div>
+
+</html>

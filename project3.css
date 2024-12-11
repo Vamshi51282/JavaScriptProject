@@ -1,0 +1,13 @@
+.fdiv3{
+    display: flex;
+    gap: 50px;
+}
+.fdiv4{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card-title:hover{
+    text-decoration: underline;
+    color:brown;
+}

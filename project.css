@@ -1,0 +1,95 @@
+
+body{
+    background-image: url("https://i0.wp.com/blog.bijak.in/wp-content/uploads/2022/07/Scope-For-Natural-Farming-In-India.jpg?fit=1600%2C905&ssl=1");
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+#title
+{
+    font-style: oblique;
+    text-align: center;
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: green;
+    align-items: center;
+    font-style: italic;
+    color: brown;
+    
+}
+#search-bar
+{
+    width: 25vw;
+    height: 5vh;
+    font-size: 25px;
+}
+#section1
+{
+    display: flex;
+    gap: 4vw;
+    border: 3px solid black ;
+    border-radius: 2%;
+    
+}
+#section1 h2 {
+    color:red;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+}
+#section1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section1 li{
+    font-size: 32px;
+    color:paleturquoise;
+
+
+}
+.container-fluid{
+    display: flex;
+}
+
+#section2 {
+    border: 4px solid black;
+    display: flex;
+    margin-top: 1%;
+    justify-content:space-evenly;
+    border-radius:4%;
+    color: paleturquoise;
+} 
+ #section2 h1 {
+    color: blue;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration-color: blanchedalmond;
+
+}
+#section1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4vw;
+    row-gap: 1vw;
+}
+#section1 li{
+    width: 16vw;
+    font-size: 32px;
+
+}
+.maincarts{
+    display: flex;
+    gap: 50px;
+    margin-left:220px;
+    margin-top: 35px;
+
+}
+.img{
+    margin-left: 400px;
+}
+
